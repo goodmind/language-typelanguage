@@ -1,7 +1,7 @@
 {
   "name": "language-typelanguage",
-  "displayName": "TypeLanguage",
-  "description": "TypeLanguage support",
+  "displayName": "Type Language",
+  "description": "Type Language support",
   "version": "0.0.2",
   "publisher": "goodmind",
   "engines": {
