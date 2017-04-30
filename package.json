@@ -28,7 +28,7 @@
       {
         "language": "typelanguage",
         "scopeName": "source.tl",
-        "path": "./syntaxes/typelanguage.tmLanguage.json"
+        "path": "./grammars/typelanguage.tmLanguage.json"
       }
     ]
   },
