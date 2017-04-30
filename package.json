@@ -1,0 +1,26 @@
+{
+    "name": "language-typelanguage",
+    "displayName": "TypeLanguage",
+    "description": "TypeLanguage support",
+    "version": "0.0.1",
+    "publisher": "goodmind",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "typelanguage",
+            "aliases": ["Type Language", "typelanguage"],
+            "extensions": [".tl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "typelanguage",
+            "scopeName": "source.tl",
+            "path": "./syntaxes/typelanguage.tmLanguage.json"
+        }]
+    }
+}
