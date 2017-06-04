@@ -3,7 +3,7 @@
     "displayName": "Type Language",
     "description": "Type Language support",
     "icon": "images/typelanguage.png",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "goodmind",
     "engines": {
         "vscode": "^1.11.0"
