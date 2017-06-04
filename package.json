@@ -1,44 +1,45 @@
 {
-  "name": "language-typelanguage",
-  "displayName": "Type Language",
-  "description": "Type Language support",
-  "version": "0.1.0",
-  "publisher": "goodmind",
-  "engines": {
-    "vscode": "^1.11.0"
-  },
-  "categories": [
-    "Languages"
-  ],
-  "contributes": {
-    "languages": [
-      {
-        "id": "typelanguage",
-        "aliases": [
-          "Type Language",
-          "typelanguage"
-        ],
-        "extensions": [
-          ".tl"
-        ],
-        "configuration": "./language-configuration.json"
-      }
+    "name": "language-typelanguage",
+    "displayName": "Type Language",
+    "description": "Type Language support",
+    "icon": "images/typelanguage.png",
+    "version": "0.1.0",
+    "publisher": "goodmind",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Languages"
     ],
-    "grammars": [
-      {
-        "language": "typelanguage",
-        "scopeName": "source.tl",
-        "path": "./grammars/typelanguage.tmLanguage.json"
-      }
-    ]
-  },
-  "homepage": "https://github.com/goodmind/language-typelanguage",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/goodmind/language-typelanguage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/goodmind/language-typelanguage/issues"
-  },
-  "license": "MIT"
+    "contributes": {
+        "languages": [
+            {
+                "id": "typelanguage",
+                "aliases": [
+                    "Type Language",
+                    "typelanguage"
+                ],
+                "extensions": [
+                    ".tl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "typelanguage",
+                "scopeName": "source.tl",
+                "path": "./grammars/typelanguage.tmLanguage.json"
+            }
+        ]
+    },
+    "homepage": "https://github.com/goodmind/language-typelanguage",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/goodmind/language-typelanguage.git"
+    },
+    "bugs": {
+        "url": "https://github.com/goodmind/language-typelanguage/issues"
+    },
+    "license": "MIT"
 }
