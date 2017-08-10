@@ -25,6 +25,8 @@ user#d23c81a3 id:int first_name:string last_name:string = User;
 no_user#c67599d1 id:int = User;
 group id:int title:string last_name:string = Group;
 no_group = Group;
+namespace.no_group#3823923 = Group;
+namespace.no_group = Group;
 
 ---functions---
 
